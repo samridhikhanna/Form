@@ -1,0 +1,40 @@
+body {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 1em
+}
+#outside {
+  background-image: url(https://images.unsplash.com/photo-1605726135442-468dd2b7eff1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=376&q=80);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  padding: 20px;
+  background-attachment: fixed;
+}
+h1 {
+  font-size: 1.5em;
+  text-align: center;
+  text-transform: capitalize;
+}
+form {
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 2em;
+  width: 60%;
+  background-color: #FCE1E8;
+}
+#survey-form {
+  background-color: #ECE8E8;
+}
+fieldset {
+  border: 1px solid darkgray;
+  margin: 10px;
+  background-color: #ECE8E8;
+}
+input, textarea {
+  width: 200px
+}
+.submit {
+  text-align: center;
+}

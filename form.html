@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="form.css">
+    <script src="https://fonts.google.com/specimen/Source+Code+Pro">
+    </script>
+  </head>
+  <body>
+    <div id="outside">
+      <form class="survey-form" action="submit.html">
+        <h1>Blog Review Form</h1>
+        <p id="note"><b>Note:</b>form is to be completed at least 14 days prior to exam date</p>
+        <fieldset>
+          <legend><b>Personal Details:</b></legend>
+            <label for="fname">First Name:</label>
+            <input type="text" id:"fname" name="fname" value="" placeholder="Enter First Name here"><br></br>
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname"name="lname" value="" placeholder="Enter Last Name here"><br></br>
+          <label for="email">Email:</label>
+          <input type="email" name="email" value="" placeholder="Enter email here"><br></br>
+          <label for="role">Which option best describes your current role?</label><br>
+          <select>
+            <option value="Student">Student</option>
+            <option value="Job">Employed</option>
+            <option value="Learner">Learner</option>
+            <option value="not-say">Prefer Not Say</option>
+            <option value="other">Other</option>
+            <label for="gender">Gender:</label>
+          </select><br></br>
+          <label for="gender">Gender:</label>
+          <p class="radio">
+            <input type="radio" name="gender" value="Male" checked>Male<br>
+            <input type="radio" name="gender" value="Female" checked>Female<br>
+            <input type="radio" name="gender" value="Other" checked>Other<br>
+          </p>
+          <label for="like">What content did you liked from our blog page?</label>
+          <p>
+            <input type="checkbox" name="photography" value="">photography<br>
+            <input type="checkbox" name="paintings" value="">Paintings<br>
+            <input type="checkbox" name="cooking" value="">Cooking Recipe<br>
+          </p>
+          <label for="recomend">Would you recommend our blog to a friend?</label>
+          <p class="radio">
+            <input type="radio" name="recomend" value="Definitely" checked>Definitely<br>
+            <input type="radio" name="recomend" value="Maybe" checked>Maybe<br>
+            <input type="radio" name="recomend" value="Not Sure" checked>Not Sure<br>
+          </p>
+        </fieldset>
+        <fieldset>
+          <label for="describe"></label>
+          <p>Please describe your experience.</p>
+          <textarea name="describe" rows="4" cols="60" placeholder="Enter text here"></textarea>
+        </fieldset>
+        <div class="submit">
+          <button type="submit" formaction="submit.html" name="button">Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
